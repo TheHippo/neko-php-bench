@@ -1,0 +1,43 @@
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking dev (be patient)
+
+
+Server Software:        Apache/2.2.22
+Server Hostname:        dev
+Server Port:            80
+
+Document Path:          /bench/www_nocache/
+Document Length:        61 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.131 seconds
+Complete requests:      1000
+Failed requests:        0
+Write errors:           0
+Total transferred:      257000 bytes
+HTML transferred:       61000 bytes
+Requests per second:    319.43 [#/sec] (mean)
+Time per request:       31.305 [ms] (mean)
+Time per request:       3.131 [ms] (mean, across all concurrent requests)
+Transfer rate:          80.17 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       5
+Processing:     9   31  10.3     31      72
+Waiting:        9   30   9.8     30      72
+Total:          9   31  10.2     31      72
+
+Percentage of the requests served within a certain time (ms)
+  50%     31
+  66%     35
+  75%     37
+  80%     40
+  90%     44
+  95%     49
+  98%     56
+  99%     59
+ 100%     72 (longest request)

@@ -1,0 +1,17 @@
+-cp src
+-main Test
+-D haxeJSON
+--each
+
+-php www_cache
+--next
+
+-D cache
+-neko test_cache.n
+--next
+
+-php www_nocache
+--next
+
+-neko test_nocache.n
+# --next
